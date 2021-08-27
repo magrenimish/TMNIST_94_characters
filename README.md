@@ -5,5 +5,5 @@ This repository contains a single csv file. </br>
 The structure of the csv file is: </br>
 1. the first row contains column headers ['names', 'labels','1','2',.....'784'] </br>
 2. The 'names' column contains font file names such as 'Acme-Regular' and 'ZillaSlab-Bold'</br>
-The 'labels' column contains character such as '@','E' or '+'</br>
-The remaining 784 columns contain the grayscale pixel values for the image of the corresponding character in the 'name' font-style
+3. The 'labels' column contains character such as '@','E' or '+'</br>
+4. The remaining 784 columns contain the grayscale pixel values for the image of the corresponding character in the 'name' font-style
